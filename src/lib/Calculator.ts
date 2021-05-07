@@ -41,6 +41,12 @@ export class Calculator {
       currentDate = addDays(currentDate, direction);
     }
 
-    return { days, resultingDate: currentDate };
+    return {
+      days,
+      resultingDate: currentDate,
+      numberOfDays,
+      direction: direction === -1 ? "before" : "after",
+      inputDate: base,
+    };
   }
 }

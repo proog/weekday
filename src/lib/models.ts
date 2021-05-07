@@ -18,12 +18,15 @@ export enum DayKind {
   NewYearsEve,
 }
 
-export type DayDefinition = {
+export interface DayDefinition {
   date: Date;
   kind: DayKind;
-};
+}
 
 export interface CalculationResult {
   resultingDate: Date;
   days: DayDefinition[];
+  inputDate: Date;
+  direction: "before" | "after";
+  numberOfDays: number;
 }
