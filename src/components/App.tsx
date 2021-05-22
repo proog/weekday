@@ -113,6 +113,7 @@ function App() {
         </div>
 
         <div className="mb-3">
+          <label className="form-label">Ekstra helligdage</label>
           {optionalExtraHolidays.map((kind) => (
             <div className="form-check" key={kind}>
               <input
