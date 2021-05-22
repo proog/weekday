@@ -32,7 +32,7 @@ function ResultInfo({ result }: Props) {
     <>
       <h2>Resultat</h2>
       <p>
-        {result.numberOfDays} arbejdsdage{" "}
+        {result.numberOfDays} hverdage{" "}
         {result.direction === "before" ? "før" : "efter"}{" "}
         {result.inputDate.toLocaleDateString()} er{" "}
         <span className="fw-bold">

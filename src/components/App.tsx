@@ -44,7 +44,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Arbejdsdagsberegner</h1>
+      <h1>Hverdagstæller</h1>
 
       <form
         onSubmit={(e) => {
@@ -68,7 +68,7 @@ function App() {
 
         <div className="mb-3">
           <label htmlFor="numberOfDays" className="form-label">
-            Antal arbejdsdage
+            Antal hverdage
           </label>
           <input
             type="number"

@@ -4,7 +4,7 @@ export class DayKindFormatter {
   format(kind: DayKind): string {
     switch (kind) {
       case DayKind.Weekday:
-        return "Arbejdsdag";
+        return "Hverdag";
       case DayKind.Weekend:
         return "Weekend";
       case DayKind.AscensionDay:
